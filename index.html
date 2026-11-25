@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Môj osobný profil</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 30px 20px;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .profile-photo {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid white;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        }
+
+        h1 {
+            margin-top: 25px;
+            font-size: 30px;
+        }
+
+        h2 {
+            margin-top: 30px;
+            color: #555;
+        }
+
+        .bio {
+            font-size: 17px;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .instagram {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 25px;
+            padding: 13px 25px;
+            background: linear-gradient(
+                45deg,
+                #feda75,
+                #fa7e1e,
+                #d62976,
+                #962fbf,
+                #4f5bd5
+            );
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+
+        .instagram:hover {
+            transform: scale(1.07);
+        }
+
+        .instagram img {
+            width: 25px;
+            height: 25px;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 15px;
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <img src="moja-fotka.jpg"
+             alt="Moja fotografia"
+             class="profile-photo">
+
+        <h1>O mne</h1>
+
+        <div class="bio">
+
+            <p>
+                Som študentom Technickej univerzity v Košiciach
+                (TUKE), kde študujem odbor Komerčná logistika.
+            </p>
+
+            <p>
+                Vo voľnom čase sa venujem hudbe a futbalu.
+                Tieto záľuby sú dôležitou súčasťou môjho života.
+                Hudba mi prináša inšpiráciu a futbal radosť
+                z pohybu a športu.
+            </p>
+
+            <p>
+                Rád spoznávam nové veci, získavam skúsenosti
+                a pracujem na svojom osobnom rozvoji.
+            </p>
+
+        </div>
+
+        <a class="instagram"
+           href="https://www.instagram.com/shwxqz?fqnt=czRxaWV6cHF6dXE%3D&utm_source=qr"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                 alt="Instagram">
+
+            Navštíviť Instagram
+        </a>
+
+    </div>
+
+    <footer>
+        © 2026 Môj osobný web
+    </footer>
+
+</body>
+</html>
